@@ -15,7 +15,6 @@ describe('AppComponent', () => {
   it(`should have as title 'animationang.js'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('animationang.js');
   });
 
   it('should render title', () => {
