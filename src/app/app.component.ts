@@ -6,9 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-afterThisCourse = [
-  {title: 'I will finish this course!', isActive: false},
-  {title: 'I will improve my knowladge!', isActive: false},
-  {title: 'I will start another course!', isActive: false},
+  afterThisCourse: { title: string, isActive: boolean }[] =[
+  {title: '1', isActive: false },
+  {title: '2', isActive: false },
+  {title: '3', isActive: false }
 ]
+
 }

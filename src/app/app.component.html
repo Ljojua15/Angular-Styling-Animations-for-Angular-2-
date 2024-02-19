@@ -1,1 +1,7 @@
-<app-first-component *ngFor="let goal of afterThisCourse" [afterCourse]="goal" [ngClass]="{active:goal.isActive}" (click)="goal.isActive = !goal.isActive"></app-first-component>
+<app-first-component
+*ngFor="let numbers of afterThisCourse"
+[goals]="numbers"
+[ngClass]="{changed: numbers.isActive}"
+(click)="numbers.isActive = !numbers.isActive"
+
+></app-first-component>

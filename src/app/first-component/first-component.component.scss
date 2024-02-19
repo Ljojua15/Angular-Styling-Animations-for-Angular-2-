@@ -1,15 +1,19 @@
-:host {
-    display: inline-block;
-    width: 250px;
-    border: 2px solid green;
-    border-radius: 10px 10px 0 0;
-    padding: 20px;
-    margin: 30px;
-    text-align: center;
-    cursor: pointer;
+:host{
+  display: inline-block;
+  width: 200px;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px 20px 0 0;
+  border: 3px solid black;
+  text-align: center;
+  cursor: pointer;
+  color: green;
+  background-color: yellow;
 }
 
-:host(.active) {
-    border: 10px solid red;
-    border-radius: 20px;
+:host(.changed){
+  background-color: red;
+  color: yellow;
+  border: 2px solid green;
 }
+

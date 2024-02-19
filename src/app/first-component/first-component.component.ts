@@ -6,5 +6,5 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./first-component.component.scss']
 })
 export class FirstComponentComponent {
-@Input() afterCourse: any;
+@Input() goals: any;
 }
