@@ -12,11 +12,5 @@ export class AppComponent {
     { title: '3', isActive: false },
   ];
 
-  a: number = 5;
-  b: number = 10;
-  constructor() {
-    let c = 10;
-    let d = 30;
-    console.log(c + d);
-  }
+  constructor() {}
 }
