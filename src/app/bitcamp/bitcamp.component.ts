@@ -6,20 +6,46 @@ import { Component } from '@angular/core';
   styleUrls: ['./bitcamp.component.scss'],
 })
 export class BitcampComponent {
-  firstExample: string = 'hello World';
+  //დაწერეთ პროგრამა რომელიც კონსოლში გამოიტანს "Hello World" -ს.
+  createFirstHW: string = 'Hello World';
+  //შექმენით ცვლადი და მიანიჭეთ მას რიცხვი. დაბეჭდეთ ცვლადის მნიშვნელობა.
+  createSecondHW: number = 15;
+  //3,4,5,6,7
+  a: number = 10;
+  b: number = 5;
+  c: number = 13;
 
-  a = 13 % 7;
+  sum: number = this.a + this.b;
+  sum1: number = this.a - this.b;
+  sum2: number = this.a * this.b;
+  sum3: number = this.a / this.b;
+  sum4: number = this.c % this.b;
+  //8
+  stringLength: string = 'sdfgasdgsdgfsdgzedmetadoriginalurivar:Ddd';
+  sum5: number = this.stringLength.length;
+  //9
+  d: string = 'baro-';
+  e: string = 'baro';
+  f: string = ' world';
+  sum6: string = this.d + this.e + this.f;
+  //10
+  upper: string = 'asfsdgsdgs';
+  upperCas: string = this.upper.toUpperCase();
+  //11
+  low: string = 'ASDGFHAJHBWHDB';
+  lowCas: string = this.low.toLowerCase();
 
-  b = 5;
-
-  sum = this.a * this.b;
-
-  example: string = `ხუთასი გავყოთ ორზე არის - ${500 / 2}`;
   constructor() {
-    console.log(this.firstExample);
-    console.log(this.a + this.b);
-
+    console.log(this.createFirstHW);
+    console.log(this.createSecondHW);
     console.log(this.sum);
-    console.log(this.example);
+    console.log(this.sum1);
+    console.log(this.sum2);
+    console.log(this.sum3);
+    console.log(this.sum4);
+    console.log(this.sum5);
+    console.log(this.sum6);
+    console.log(this.upperCas);
+    console.log(this.lowCas);
   }
 }
