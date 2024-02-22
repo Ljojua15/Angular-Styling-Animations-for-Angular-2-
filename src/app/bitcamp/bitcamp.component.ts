@@ -6,6 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./bitcamp.component.scss'],
 })
 export class BitcampComponent {
+  /*
+  //დავალება N1
   //დაწერეთ პროგრამა რომელიც კონსოლში გამოიტანს "Hello World" -ს.
   createFirstHW: string = 'Hello World';
   //შექმენით ცვლადი და მიანიჭეთ მას რიცხვი. დაბეჭდეთ ცვლადის მნიშვნელობა.
@@ -47,5 +49,19 @@ export class BitcampComponent {
     console.log(this.sum6);
     console.log(this.upperCas);
     console.log(this.lowCas);
+  }
+  */
+  x = 5;
+  y = 10;
+  function() {}
+
+  constructor() {
+    let x: number = 5;
+    let y = x + 20;
+
+    x = 10;
+    let c = x + 20;
+    console.log(y);
+    console.log(c);
   }
 }
