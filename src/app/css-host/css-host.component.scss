@@ -16,9 +16,8 @@
   background-color: yellow;
 }
 
-.la{
+:host-context(.second){
   width: 200px;
-  height: 50px;
-  border: 1px solid red;
-  margin: auto;
+  height: 300px;
+  background-color: black;
 }

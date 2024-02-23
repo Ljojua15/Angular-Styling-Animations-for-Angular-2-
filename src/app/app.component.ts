@@ -6,10 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  afterThisCourse: { title: string; isActive: boolean }[] = [
-    { title: '1', isActive: false },
-    { title: '2', isActive: false },
-    { title: '3', isActive: false },
+  toDo: any = [
+    { list: '1', arbeit: false },
+    { list: '2', arbeit: false },
+    { list: '3', arbeit: false },
   ];
 
   constructor() {}
