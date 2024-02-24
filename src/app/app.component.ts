@@ -18,13 +18,13 @@ export class AppComponent {
 
   constructor() {
 
-    if (this.class/2 === Math.min(1)){
+    if (this.class/2 == Math.min(1)){
       console.log('pizdec')
-    }if (this.class/2 === Math.min(1)){
-      
+    }if (this.class/2 === Math.max(1)){
+      console.log('araa mase33')
     }
 
 
-    console.log(this.class)
+ 
 }
 }
